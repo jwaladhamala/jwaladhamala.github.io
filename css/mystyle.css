@@ -48,3 +48,7 @@
 .papervenue {
   font-style: italic;
 }
+.newflag {
+  color: orange;
+  font-weight: 600;
+}
