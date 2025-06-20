@@ -58,3 +58,19 @@
   color: orange;
   font-weight: 600;
 }
+.resume-act-item {
+  border-left: 3px solid #007bff;
+  padding-left: 1rem;
+  background: #f9f9f9;
+  border-radius: 0.5rem;
+}
+.pubheading {
+  font-weight: 600;
+}
+.pubsubheading {
+  font-style: italic;
+}
+.resume-date {
+  font-size: 0.9rem;
+}
+
