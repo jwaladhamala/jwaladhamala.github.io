@@ -1,0 +1,218 @@
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default"
+title                    : "Jwala Dhamala"
+title_separator          : "-"
+name                     : &name "Jwala Dhamala"
+description              : &description "Personal website of Jwala Dhamala — Senior Applied Scientist, AGI Foundations, Amazon."
+url                      : https://jwaladhamala.com
+baseurl                  : ""
+repository               : "jwaladhamala/jwaladhamala.github.io"
+
+# Site Author
+author:
+  avatar           : "profile.jpg"
+  name             : "Jwala Dhamala"
+  pronouns         :
+  bio              : "Senior Applied Scientist, AGI Foundations, Amazon. Research on LLMs, agentic AI, evaluation, and responsible AI."
+  # location         : "California, USA"
+  employer         : "Amazon"
+  uri              :
+  email            : "jwala.dhamala@gmail.com"
+
+  # Academic websites
+  academia         :
+  arxiv            :
+  googlescholar    : "https://scholar.google.com/citations?user=1bUxjvoAAAAJ&hl=en&sortby=pubdate"
+  inspire-hep      :
+  impactstory      :
+  orcid            :
+  semantic         :
+  ssrn             :
+  pubmed           :
+  researchgate     :
+  scopus           :
+  zotero           :
+
+  # Repositories and software development
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  # github           : "jwaladhamala"
+  kaggle           :
+  stackoverflow    :
+
+  # Social media
+  linkedin         : "jwaladhamala"
+  twitter          : "jwaladhamala"
+
+# Publication Category — disabled so publications render as one flat chronological list
+# publication_category:
+#   manuscripts:
+#     title: 'Journal Articles'
+#   conferences:
+#     title: 'Conference & Workshop Papers'
+#   preprints:
+#     title: 'Preprints & Technical Reports'
+
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
+comments:
+  provider               :
+atom_feed:
+  hide                   : false
+  path                   :
+
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+
+# Social Sharing
+twitter:
+  username               : &twitter "jwaladhamala"
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :
+og_description           :
+social:
+  type                   :
+  name                   :
+  links:
+
+
+# Analytics
+analytics:
+  provider               : "false"
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: false
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+permalink: /:categories/:title/
+timezone: Etc/UTC
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
