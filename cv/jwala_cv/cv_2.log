@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  28 APR 2026 11:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.1)  15 OCT 2026 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -64,17 +64,18 @@ Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 (/usr/local/texlive/2026basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2026basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+(/Users/jddhamal/Library/texmf/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2026basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/Users/jddhamal/Library/texmf/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/hycolor/hycolor.sty
+))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
 (/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -205,20 +206,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 76.
+[1
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--116
+{/Users/jddhamal/Library/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 192.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 192.
+ [2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
-[1
-
-{/usr/local/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 191.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 191.
-
-[2] [3] [4] [5]
+[4] [5]
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -226,12 +227,12 @@ L3 programming layer <2026-01-19>
  ) 
 Here is how much of TeX's memory you used:
  7674 strings out of 469006
- 119438 string characters out of 5454814
- 534701 words of memory out of 5000000
+ 119378 string characters out of 5454814
+ 535701 words of memory out of 5000000
  36335 multiletter control sequences out of 15000+600000
  631117 words of font info for 51 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 75i,8n,79p,379b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,491b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -242,7 +243,7 @@ msfonts/cm/cmr9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsl9.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy9.pfb>
-Output written on cv_2.pdf (5 pages, 148866 bytes).
+Output written on cv_2.pdf (5 pages, 149161 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream

@@ -4,7 +4,7 @@ site_theme               : "default"
 title                    : "Jwala Dhamala"
 title_separator          : "-"
 name                     : &name "Jwala Dhamala"
-description              : &description "Personal website of Jwala Dhamala — Senior Applied Scientist, AGI Foundations, Amazon."
+description              : &description "Jwala Dhamala — Responsible AI, LLM evaluation, and AI safety."
 url                      : https://jwaladhamala.com
 baseurl                  : ""
 repository               : "jwaladhamala/jwaladhamala.github.io"
@@ -14,7 +14,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Jwala Dhamala"
   pronouns         :
-  bio              : "Senior Applied Scientist, AGI Foundations, Amazon. Research on LLMs, agentic AI, evaluation, and responsible AI."
+  bio              : "Senior Applied Scientist at Amazon. Responsible AI · LLM Evaluation · AI Safety."
   # location         : "California, USA"
   employer         : "Amazon"
   uri              :
