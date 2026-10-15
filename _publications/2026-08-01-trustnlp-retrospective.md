@@ -1,5 +1,4 @@
 ---
-published: false  # hidden while under submission (anonymity); set to true to restore
 title: "From Interpretability to Control: Insights from Six Years of the TrustNLP Workshop"
 collection: publications
 permalink: /publications/2026-trustnlp-retrospective
